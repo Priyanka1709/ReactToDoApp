@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from './common/Header';
+import Header from './common/header';
 import AddTask from './addTask/addTask';
 import { connect } from 'react-redux';
 import { loadList } from '../actions/todoActions';
