@@ -15,9 +15,5 @@ steps:
   displayName: 'installing node modules'
 
 - script: |
-    npm run lint
-  displayName: 'Checking for lint errors'
-
-- script: |
     npm run open:src
   displayName: 'Building app'
