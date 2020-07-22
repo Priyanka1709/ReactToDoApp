@@ -19,5 +19,5 @@ steps:
   displayName: 'Checking for lint errors'
 
 - script: |
-    npm run build
+    npm run open:src
   displayName: 'Building app'
